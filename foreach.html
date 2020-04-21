@@ -1,0 +1,22 @@
+<html>
+
+<body>
+
+
+
+    <p id="demo"></p>
+
+    <script>
+        var txt = "test";
+        var numbers = [45, 4, 9, 16, 25, 98, 90, 766];
+        numbers.forEach(myFunction);
+        document.getElementById("demo").innerHTML = txt;
+        function myFunction(value, index, array) {
+            txt = txt + value * 2 + "<br>";
+        }
+
+    </script>
+
+</body>
+
+</html>

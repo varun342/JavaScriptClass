@@ -1,0 +1,19 @@
+<html>
+<body>
+
+
+<p id="demo"></p>
+
+<script>
+var numbers = [4, 9, 16, 25, 29,67,90,99];
+var first = numbers.find(myFunction);
+
+document.getElementById("demo").innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 90;
+}
+</script>
+
+</body>
+</html>
