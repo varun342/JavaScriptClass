@@ -1,0 +1,66 @@
+reactnativenarendra@gmail.com
+
+
+Git init
+Git status
+Git commit . -m “hjhjh”
+Git status
+Git remote add origin “http:github url”
+Git push origin master
+Git remote get-url origin
+………………………………………
+Git checkout -b “stagebranch” —create branch
+Git branch -a
+
+————————
+Git revert Readme.md
+Git reset —hard(remove changes(care full))
+
+Git checkout master(Change branch)
+emritmac0053:JsExamples nbokkam.cr$ git stash
+
+emritmac0053:JsExamples nbokkam.cr$ git stash pop
+
+………………
+Git global setup
+git config --global user.name "Narendra B"
+git config --global user.email "narendrawebox@gmail.com"
+Create a new repository
+git clone https://gitlab.com/narendrawebox/jsexamples.git
+cd jsexamples
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+Push an existing folder
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/narendrawebox/jsexamples.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+Push an existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://gitlab.com/narendrawebox/jsexamples.git
+git push -u origin --all
+git push -u origin --tags
+
+user = User.find_by(email: “narendrawebox@gmail.com”)
+
+………………………………………….
+1)if we create branch from master all files will copy from master to newly created branch
+2) if we change any file in the workspace, create a file It will show to all Branches.we can commit  where we want..
+3) if we change files in master, it won’t effect on feature branch it create from master.
+4)if merge with master, if u still add file in already merged sub branch, if u do git branch —merged ,it say not merged, bcz added file or modification
+
+https://www.youtube.com/watch?v=52od18XTuio
+
+……………….
+Git branch - d branch name
+
+To know merged(git branch —merged)
+To know notmerged(git branch --no-merged)
+……………….
+git stash- if modification should not effect in local git,then we do stash
+Git stash list
